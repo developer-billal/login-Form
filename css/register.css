@@ -1,0 +1,70 @@
+/*===================================
+Start Register Page Css
+=====================================*/
+form
+input[type = 'text'],
+input[type = 'email'],
+input[type = 'number'],
+input[type = 'date'],
+input[type = 'password']{
+display: block;
+padding: 10px;
+margin: 18px auto;
+outline: none;
+border: none;
+border-radius: 5px;
+background: linear-gradient(rgba(8,0,0, 0.4),
+rgba(8,0,0, 0.4)
+);
+color: #fff;
+box-shadow: 1px 1px 5px #222524;
+padding-left: 30px;
+width: 80%;
+}
+form{
+max-width: 350px;
+background: linear-gradient(rgba(8,0,0, 0.2),
+rgba(8,0,0, 0.4)
+);
+}
+.gender{
+margin-left: 15px;
+color: #cccaca;
+}
+label{
+margin-left: 15px;
+color: #cccaca;
+display: block;
+margin-bottom: -17px;
+}
+#DB{
+margin-top: 10px;
+}
+.registerBtn{
+text-align: center;
+background: #080000;
+border-radius: 5px;
+}
+.registerBtn a{
+color: #fff;
+padding: 10px 0;
+text-decoration: none;
+font-size: 17px;
+display: block;
+}
+
+.formWrapper{
+max-width: 900px;
+margin: 0 auto;
+padding: 80px 10px;
+background: linear-gradient(rgba(86, 94, 92, 0.5),
+rgba(86, 94, 92, 0.5)),
+url(img/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg);
+background-repeat: no-repeat;
+background-position:right;
+background-size:cover;
+position: relative;
+}
+/*===================================
+End Register Page Css
+=====================================*/

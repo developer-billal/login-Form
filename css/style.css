@@ -1,0 +1,112 @@
+.container{}
+.formWrapper{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 80px 10px;
+	background: linear-gradient(rgba(86, 94, 92, 0.9), 
+		rgba(86, 94, 92, 0.9)), 
+	url(img/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+form{
+	background: linear-gradient(rgba(94, 113, 109, 0.3), 
+		rgba(94, 113, 109, 0.3));
+	max-width: 300px;
+	margin: 0 auto;
+	padding: 30px 16px;
+	position: relative;
+	box-shadow: 1px 1px 5px;
+	border: 1px solid #22252a;
+}
+form input[type = 'text'], input[type = 'password']{
+	display: block;
+	padding: 10px;
+	margin: 18px auto;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	background: #565e5c;
+	color: #fff;
+	box-shadow: 1px 1px 5px #222524;
+	padding-left: 30px;
+	width: 80%;
+}
+
+button{
+	background: #638821;
+	display: block;
+	border:none;
+	border-radius: 8px;
+	box-shadow: -1px -1px 3px #000;
+	width: 100%;
+	padding: 8px 0;
+	margin: 10px auto;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.forgot a, .account a{
+	text-decoration: none;
+	color: #c3c4c8;
+	font-family: arial;
+	font-size: 14px;
+	display: block;
+	padding:8px 8px;
+}
+
+.forgot, .account{
+	border: ridge 1px #2c2d2d;
+	box-shadow: 1px 1px 1px;
+	text-align: center;
+}
+
+
+
+.fa-user{
+	color: #9B9CA1;
+	position: absolute;
+	top: 55px;
+	left: 35px;
+}
+
+.fa-key{
+	color: #9B9CA1;
+	position: absolute;
+	top: 110px;
+	left: 35px;
+}
+::placeholder{
+	color: #fff;
+	opacity: 0.6;
+}
+
+button{
+	animation: btn;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes btn{
+	from{transform: scale(1,, 1);}
+	to{transform: scale(0.90, 1);
+		background: #245419;
+	}
+}
+
+
+.fa-envelope{
+	color: #9B9CA1;
+	position: absolute;
+	top: 55px;
+	left: 20px;
+}
+
+
+
+
+

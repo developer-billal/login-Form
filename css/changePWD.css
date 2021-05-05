@@ -1,0 +1,53 @@
+/*====================================
+Start Change Password Css
+======================================*/
+.resetPWD{
+background: #936c7b;
+text-align: center;
+padding: 10px 0;
+border: groove 1px #936c7b;
+box-shadow: 1px 1px 2px;
+}
+.resetPWD a{
+text-decoration: none;
+color: #fff;
+display: block;
+font-size: 17px;
+}
+form{
+background: linear-gradient(
+rgba(147, 108, 108, 0.3),
+rgba(147, 108, 108, 0.5));
+}
+form input[type = "password"],
+input[type = "email"]{
+display: block;
+padding: 10px;
+margin: 18px auto;
+outline: none;
+border: none;
+border-radius: 5px;
+background: linear-gradient(
+rgba(147, 108, 108, 0.3),
+rgba(147, 108, 108, 0.5));
+color: #fff;
+box-shadow: 1px 1px 5px #222524;
+padding-left: 30px;
+width: 80%;
+}
+
+.formWrapper{
+max-width: 900px;
+margin: 0 auto;
+padding: 80px 10px;
+background: linear-gradient(rgba(86, 94, 92, 0.8),
+rgba(86, 94, 92, 0.4)),
+url(img/corinne-kutz-tMI2_-r5Nfo-unsplash.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+/*====================================
+Start Change Password Css
+======================================*/

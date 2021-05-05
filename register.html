@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML & CSS Login Form</title>
+	<link rel="stylesheet" href = "fontawesome-free-5.15.2-web/css/all.min.css">
+	<link rel="stylesheet" href = "fontawesome-free-5.15.2-web/css/fontawesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+	<div class="container">
+		<div class="formWrapper">
+			<form action="#">
+				<input type="text" placeholder="First Name">
+				<input type="text" placeholder="Last Name">
+				<input type="email" placeholder="E-mail">
+				<input type="number" placeholder="Phone">
+				<input type="Password" placeholder="Password">
+				<div class="gender">
+				Gender: 
+				<input type="radio" name = 'gender' value = 'Male'>Male
+				<input type="radio" name = "gender" value = "Female">Female
+				<input type="radio" name = "gender" value = "Other">Other
+				</div>
+				<div id="DB">
+				<label for="DOB">Date of Birth: </label>
+				<input type="date" placeholder = "birthday" id = "DOB">
+				</div>
+				<input type="text" placeholder = "Address">
+				<p class="registerBtn">
+				<a href="#">Register</a>
+			    </p>
+				<p class="account">
+					<a href="index.html">Have an account? Login</a>
+				</p>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
